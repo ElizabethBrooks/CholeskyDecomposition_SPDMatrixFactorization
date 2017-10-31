@@ -1,10 +1,10 @@
 %{
   Name: Elizabeth Brooks
-  File: CholeskyDecomposition_SPDMatrixFactorization
+  File: SPDMatrixFactorization_CholeskyDecomposition
   Modified: 31 October 2017
 %}
 %Main function of script
-function MATH573_Assignment1_BrooksE
+function SPDMatrixFactorization_CholeskyDecomposition
 %%Random test matrices
 n = 4; %Set the square SPD matrix size, n
 L = generateRandomL(n)
