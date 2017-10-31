@@ -6,7 +6,7 @@
 %Main function of script
 function SPDMatrixFactorization_CholeskyDecomposition
 %%Random test matrices
-n = 4; %Set the square SPD matrix size, n
+n = 4 %Set the square SPD matrix size, n
 L = generateRandomL(n)
 A = computeRandomA(L,n)
 det = determinantA(A,n)
